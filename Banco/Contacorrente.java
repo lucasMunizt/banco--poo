@@ -1,6 +1,6 @@
  class Contacorrente extends Conta { 
    private double limite;
-    double montateDevedor = 0;
+    double montanteDevedor = 0;
     
     Contacorrente(double saldo, int numero, int agencia, Cliente cliente) {
         super(saldo, numero, agencia, cliente);
