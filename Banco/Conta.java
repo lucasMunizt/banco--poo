@@ -1,6 +1,6 @@
 public class Conta {
     protected double saldo;
-    protected final int numero; // qunado usa o final ela não pode ser herdada por outra classe 
+    protected final int numero; 
     protected final int agencia;
     protected final Cliente cliente;
 
