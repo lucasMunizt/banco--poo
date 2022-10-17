@@ -14,7 +14,7 @@ public class Contapoupanca extends Conta {
         return true;
     }
 
-    boolean depositar2(double valor){ // colocar valor
+    boolean depositar2(double valor){ 
         saldo+=valor;
         System.out.println("seu deposito e : " + saldo);
         return true;
